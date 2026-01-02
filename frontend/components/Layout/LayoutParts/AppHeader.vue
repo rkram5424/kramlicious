@@ -22,10 +22,10 @@
       class="pl-2"
     >
       <v-toolbar-title
-        style="cursor: pointer"
+        style="cursor: pointer; font-family: 'Cream Cake Bold', sans-serif; font-size: 1.75rem;"
         @click="$router.push(routerLink)"
       >
-        Mealie
+        Kramlicious
       </v-toolbar-title>
     </div>
     <RecipeDialogSearch ref="domSearchDialog" />
