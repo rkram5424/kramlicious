@@ -71,14 +71,15 @@
       </v-btn>
       <v-btn
         v-else
-        variant="text"
+        :variant="smAndUp ? 'text' : undefined"
+        :icon="xs"
         nuxt
         to="/login"
       >
-        <v-icon start>
+        <v-icon :start="smAndUp">
           {{ $globals.icons.user }}
         </v-icon>
-        {{ $t("user.login") }}
+        {{ smAndUp ? $t("user.login") : "" }}
       </v-btn>
     </template>
   </v-app-bar>
