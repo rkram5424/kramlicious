@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Cream Cake Bold';
+  src: url('/fonts/CreamCakeBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 .layout-enter-active,
 .layout-leave-active {
   transition: opacity 0.2s;
