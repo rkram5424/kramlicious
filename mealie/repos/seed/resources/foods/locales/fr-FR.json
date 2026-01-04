@@ -2021,7 +2021,7 @@
             "sharp cheddar": {
                 "aliases": [],
                 "description": "",
-                "name": "sharp cheddar",
+                "name": "cheddar fort",
                 "plural_name": "ccheddar fort"
             },
             "cheese": {
@@ -2052,13 +2052,13 @@
                 "aliases": [],
                 "description": "",
                 "name": "",
-                "plural_name": "cheddar-jack cheeses"
+                "plural_name": "fromages cheddar jack"
             },
             "monterey jack": {
                 "aliases": [],
                 "description": "",
                 "name": "monterey jack",
-                "plural_name": "monterey jacks"
+                "plural_name": "monterey jack"
             },
             "blue cheese": {
                 "aliases": [],
@@ -4213,7 +4213,7 @@
             "ground venison": {
                 "aliases": [],
                 "description": "",
-                "name": "ground venison",
+                "name": "chevreuil haché",
                 "plural_name": "ground venisons"
             },
             "beef shank": {
@@ -4304,7 +4304,7 @@
                 "aliases": [],
                 "description": "",
                 "name": "lamb neck",
-                "plural_name": "lamb necks"
+                "plural_name": "colliers d'agneau"
             },
             "sausage patty": {
                 "aliases": [],
