@@ -91,7 +91,7 @@ const state = reactive({
   shoppingListDialog: false,
   menuItems: [
     {
-      title: i18n.t("recipe.add-to-list"),
+      title: i18n.t("meal-plan.add-day-to-list"),
       icon: $globals.icons.cartCheck,
       color: undefined,
       event: "shoppingList",
@@ -123,8 +123,8 @@ async function getShoppingLists() {
 
 // eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 const eventHandlers: { [key: string]: () => void | Promise<any> } = {
-  shoppingList: () => {
-    getShoppingLists();
+  shoppingList: async () => {
+    await getShoppingLists();
     state.shoppingListDialog = true;
   },
 };
