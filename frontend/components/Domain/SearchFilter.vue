@@ -38,7 +38,7 @@
             clearable
           />
           <div />
-          <div class="d-flex py-4 px-1 align-center">
+          <div class="d-flex flex-wrap py-4 px-1 align-center">
             <v-btn-toggle
               v-if="requireAll != undefined"
               v-model="combinator"
@@ -46,6 +46,7 @@
               density="compact"
               variant="outlined"
               color="primary"
+              class="my-1"
             >
               <v-btn value="hasAll">
                 {{ $t('search.has-all') }}
@@ -58,6 +59,7 @@
             <v-btn
               size="small"
               color="accent"
+              class="my-1"
               @click="clearSelection"
             >
               {{ $t("search.clear-selection") }}
