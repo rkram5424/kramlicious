@@ -822,7 +822,7 @@ wheels = [
 
 [[package]]
 name = "mealie"
-version = "3.10.1"
+version = "3.10.2"
 source = { editable = "." }
 dependencies = [
     { name = "aiofiles" },
